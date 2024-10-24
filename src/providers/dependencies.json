@@ -1,0 +1,211 @@
+{
+  "name" : "Default",
+  "elements" : [ {
+    "packageName" : "Default",
+    "sourceFile" : "Animal.java",
+    "signature" : "<T:Ljava/lang/Object;>LPackageFilter;Ljava/lang/Cloneable;",
+    "fields" : [ {
+      "name" : "name",
+      "type" : "java.lang.String",
+      "isStatic" : false,
+      "isFinal" : false,
+      "modifier" : "PRIVATE"
+    }, {
+      "name" : "type",
+      "type" : "java.lang.String",
+      "isStatic" : false,
+      "isFinal" : false,
+      "modifier" : "PRIVATE"
+    }, {
+      "name" : "features",
+      "type" : "java.util.List<java.lang.String>",
+      "isStatic" : false,
+      "isFinal" : false,
+      "modifier" : "PRIVATE"
+    }, {
+      "name" : "something",
+      "type" : "T",
+      "isStatic" : false,
+      "isFinal" : false,
+      "modifier" : "PRIVATE"
+    }, {
+      "name" : "hello",
+      "type" : "int",
+      "isStatic" : true,
+      "isFinal" : true,
+      "modifier" : "PUBLIC"
+    } ],
+    "methods" : [ {
+      "accessModifier" : "PUBLIC",
+      "isStatic" : false,
+      "isFinal" : false,
+      "isAbstract" : false,
+      "name" : "<init>",
+      "parameters" : [ "java.lang.String", "java.lang.String" ],
+      "returnType" : "void"
+    }, {
+      "accessModifier" : "PUBLIC",
+      "isStatic" : false,
+      "isFinal" : false,
+      "isAbstract" : false,
+      "name" : "<init>",
+      "parameters" : [ ],
+      "returnType" : "void"
+    }, {
+      "accessModifier" : "PUBLIC",
+      "isStatic" : false,
+      "isFinal" : false,
+      "isAbstract" : false,
+      "name" : "getTypeParameter",
+      "parameters" : [ ],
+      "returnType" : "T"
+    }, {
+      "accessModifier" : "PUBLIC",
+      "isStatic" : false,
+      "isFinal" : false,
+      "isAbstract" : false,
+      "name" : "getName",
+      "parameters" : [ ],
+      "returnType" : "java.lang.String"
+    }, {
+      "accessModifier" : "PUBLIC",
+      "isStatic" : false,
+      "isFinal" : false,
+      "isAbstract" : false,
+      "name" : "getType",
+      "parameters" : [ ],
+      "returnType" : "java.lang.String"
+    }, {
+      "accessModifier" : "PUBLIC",
+      "isStatic" : false,
+      "isFinal" : false,
+      "isAbstract" : false,
+      "name" : "setName",
+      "parameters" : [ "java.lang.String" ],
+      "returnType" : "void"
+    }, {
+      "accessModifier" : "PUBLIC",
+      "isStatic" : false,
+      "isFinal" : false,
+      "isAbstract" : false,
+      "name" : "setType",
+      "parameters" : [ "java.lang.String" ],
+      "returnType" : "void"
+    }, {
+      "accessModifier" : "PUBLIC",
+      "isStatic" : false,
+      "isFinal" : false,
+      "isAbstract" : false,
+      "name" : "getFeatures",
+      "parameters" : [ ],
+      "returnType" : "java.util.List<java.lang.String>"
+    }, {
+      "accessModifier" : "PUBLIC",
+      "isStatic" : false,
+      "isFinal" : false,
+      "isAbstract" : false,
+      "name" : "clone",
+      "parameters" : [ ],
+      "returnType" : "Animal"
+    }, {
+      "accessModifier" : "PUBLIC",
+      "isStatic" : false,
+      "isFinal" : false,
+      "isAbstract" : false,
+      "name" : "clone",
+      "parameters" : [ ],
+      "returnType" : "java.lang.Object"
+    } ],
+    "outGoingDependencies" : [ "T" ],
+    "incomingDependencies" : [ ],
+    "name" : "Animal",
+    "interface" : false,
+    "final" : false,
+    "abstract" : false,
+    "package" : false,
+    "elements" : [ ],
+    "class" : true,
+    "importedPackages" : [ {
+      "name" : "java.lang",
+      "elements" : [ ],
+      "package" : true,
+      "class" : false,
+      "classCount" : 0,
+      "abstractClassCount" : 0,
+      "concreteClassCount" : 0
+    }, {
+      "name" : "java.util",
+      "elements" : [ ],
+      "package" : true,
+      "class" : false,
+      "classCount" : 0,
+      "abstractClassCount" : 0,
+      "concreteClassCount" : 0
+    } ]
+  }, {
+    "packageName" : "Default",
+    "sourceFile" : "Animal.java",
+    "signature" : "default",
+    "fields" : [ {
+      "name" : "i",
+      "type" : "int",
+      "isStatic" : false,
+      "isFinal" : true,
+      "modifier" : "PUBLIC"
+    }, {
+      "name" : "HELLO",
+      "type" : "java.lang.String",
+      "isStatic" : true,
+      "isFinal" : true,
+      "modifier" : "PUBLIC"
+    } ],
+    "methods" : [ {
+      "accessModifier" : "PUBLIC",
+      "isStatic" : false,
+      "isFinal" : false,
+      "isAbstract" : false,
+      "name" : "getI",
+      "parameters" : [ ],
+      "returnType" : "int"
+    }, {
+      "accessModifier" : "PUBLIC",
+      "isStatic" : false,
+      "isFinal" : false,
+      "isAbstract" : false,
+      "name" : "<init>",
+      "parameters" : [ ],
+      "returnType" : "void"
+    }, {
+      "accessModifier" : "PUBLIC",
+      "isStatic" : false,
+      "isFinal" : false,
+      "isAbstract" : false,
+      "name" : "<init>",
+      "parameters" : [ "int" ],
+      "returnType" : "void"
+    } ],
+    "outGoingDependencies" : [ ],
+    "incomingDependencies" : [ ],
+    "name" : "Animal$SomeClass",
+    "interface" : false,
+    "final" : false,
+    "abstract" : false,
+    "package" : false,
+    "elements" : [ ],
+    "class" : true,
+    "importedPackages" : [ {
+      "name" : "java.lang",
+      "elements" : [ ],
+      "package" : true,
+      "class" : false,
+      "classCount" : 0,
+      "abstractClassCount" : 0,
+      "concreteClassCount" : 0
+    } ]
+  } ],
+  "package" : true,
+  "class" : false,
+  "classCount" : 2,
+  "abstractClassCount" : 0,
+  "concreteClassCount" : 2
+}
